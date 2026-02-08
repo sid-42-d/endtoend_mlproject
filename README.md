@@ -42,3 +42,6 @@ The objective of this project is to build a scalable and maintainable machine le
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+python -m venv venv
+source venv/bin/activate   # For Windows: venv\Scripts\activate
