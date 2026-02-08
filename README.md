@@ -55,7 +55,7 @@ pip install -r requirements.txt
 ### 4. Run the Application
 ```bash
 python app.py
-
+```
 ---
 ## Logging and Exception Handling
 
