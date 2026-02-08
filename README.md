@@ -44,5 +44,45 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 ### 2. Create and Activate Virtual Environment
+```bash
 python -m venv venv
 source venv/bin/activate   # For Windows: venv\Scripts\activate
+```
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4. Run the Application
+```bash
+python app.py
+
+---
+## Logging and Exception Handling
+
+- Centralized logging is used to track execution across different stages of the pipeline.
+- Custom exception handling ensures clear and meaningful error messages.
+
+---
+
+## Future Enhancements (Work in Progress)
+
+The following improvements are currently being worked on and will be added in future updates:
+
+- Hyperparameter tuning  
+- CI/CD pipeline integration  
+- Dockerization  
+- Cloud deployment (AWS / Azure / GCP)  
+
+---
+
+## Acknowledgements
+
+This project is inspired by industry-level machine learning workflows and best practices.
+
+---
+
+## Author
+
+**Siddhant Pastapure**  
+Machine Learning Enthusiast | Aspiring Data Scientist
+
